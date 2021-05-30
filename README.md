@@ -6,4 +6,5 @@
 
 # Screenshots
 
+![Screenshot](screens/banner.jpg)
 ![Screenshot](screens/banner_fancy.jpg)
