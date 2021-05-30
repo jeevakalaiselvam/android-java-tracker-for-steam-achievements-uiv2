@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="32dp"
+    android:layout_marginTop="32dp"
+    android:background="@drawable/bg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:padding="22dp"
+            android:src="@drawable/ic_left"
+            android:tint="@color/colorTextWHITE" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:fontFamily="@font/dinpror"
+                android:shadowColor="#ffffff"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="10"
+                android:layout_weight="1"
+                android:gravity="center|bottom"
+                android:text="Configure App"
+                android:textColor="@color/colorTextWHITE"
+                android:textFontWeight="1"
+                android:textSize="17sp" />
+
+
+            <TextView
+                android:id="@+id/sub"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text=""
+                android:textColor="@color/colorTextLight"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/option"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="18dp"
+            android:src="@drawable/ic_optins"
+            android:tint="#ccd6e0" />
+
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/dinprob"
+                android:padding="8dp"
+                android:text="Step 1"
+                android:textColor="@color/colorAccent"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/dinpror"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:padding="8dp"
+                android:textColor="@color/colorText"
+                android:text="@string/hint_0"
+                android:textSize="14sp" />
+
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="121dp"
+                android:padding="8dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:scaleType="centerInside"
+                android:src="@drawable/h0" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="8dp"
+                android:text="Step 2"
+                android:fontFamily="@font/dinprob"
+                android:textColor="@color/colorAccent"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:fontFamily="@font/dinpror"
+                android:padding="8dp"
+                android:textColor="@color/colorText"
+                android:text="@string/hint_1"
+                android:textSize="14sp" />
+
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="201dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="18dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/h1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="8dp"
+                android:text="Step 3"
+                android:fontFamily="@font/dinprob"
+                android:textColor="@color/colorAccent"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/dinpror"
+                android:gravity="left"
+                android:padding="8dp"
+                android:textColor="@color/colorText"
+                android:text="@string/hint_2"
+                android:textSize="14sp" />
+
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="201dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="18dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/h2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="8dp"
+                android:text="Step 4"
+                android:fontFamily="@font/dinprob"
+                android:textColor="@color/colorAccent"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/dinpror"
+                android:gravity="left"
+                android:textColor="@color/colorText"
+                android:padding="8dp"
+                android:text="@string/hint_3"
+                android:textSize="14sp" />
+
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="201dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="18dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/h3" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="8dp"
+                android:text="Step 5"
+                android:fontFamily="@font/dinprob"
+                android:textColor="@color/colorAccent"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:fontFamily="@font/dinpror"
+                android:padding="8dp"
+                android:text="@string/hint_4"
+                android:textColor="@color/colorText"
+                android:textSize="14sp" />
+
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="201dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="18dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/h4" />
+
+            <Button
+                android:id="@+id/done"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="16dp"
+                android:minHeight="0dp"
+                android:padding="4dp"
+                android:text="READY"
+                android:fontFamily="@font/dinprob"
+                android:background="@color/green"
+                android:layout_marginBottom="16dp"
+                android:textColor="@color/colorBGDark" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

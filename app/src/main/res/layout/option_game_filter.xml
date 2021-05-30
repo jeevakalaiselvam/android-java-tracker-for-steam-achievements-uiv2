@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:background="@color/button2bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@color/button2bg" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:shadowColor="#ffffff"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="10"
+        android:text="Capabilities"
+        android:textColor="@color/colorTextWHITE"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView5" />
+
+    <TextView
+        android:id="@+id/global"
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:background="@drawable/color_button2bg"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:gravity="bottom"
+        android:padding="4dp"
+        android:text="GLOBAL"
+        android:textColor="@color/colorTextWHITE"
+        android:fontFamily="@font/dinprob"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title" />
+
+    <TextView
+        android:id="@+id/unlocked"
+        android:layout_width="180dp"
+        android:textColor="@color/colorTextWHITE"
+        android:layout_height="70dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/color_button2bg"
+        android:fontFamily="@font/dinprob"
+        android:gravity="bottom"
+        android:padding="4dp"
+        android:text="UNLOCKED"
+        app:layout_constraintStart_toEndOf="@+id/global"
+        app:layout_constraintTop_toBottomOf="@+id/title" />
+
+    <TextView
+        android:id="@+id/locked"
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/color_button2bg"
+        android:fontFamily="@font/dinprob"
+        android:gravity="bottom"
+        android:textColor="@color/colorTextWHITE"
+        android:padding="4dp"
+        android:text="LOCKED"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/global" />
+
+    <TextView
+        android:id="@+id/planner"
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/colorTextWHITE"
+        android:background="@drawable/color_button2bg"
+        android:fontFamily="@font/dinprob"
+        android:gravity="bottom"
+        android:padding="4dp"
+        android:text="PLANNER"
+        app:layout_constraintStart_toEndOf="@+id/global"
+        app:layout_constraintTop_toBottomOf="@+id/unlocked" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:tint="@color/colorText"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="@+id/global"
+        app:layout_constraintTop_toTopOf="@+id/global"
+        app:srcCompat="@drawable/ic_3_stars_outlines" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="20dp"
+        android:tint="@color/colorText"
+        android:layout_height="20dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="@+id/unlocked"
+        app:layout_constraintTop_toTopOf="@+id/unlocked"
+        app:srcCompat="@drawable/ic_3_stars_outlines" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:tint="@color/colorText"
+        app:layout_constraintEnd_toEndOf="@+id/locked"
+        app:layout_constraintTop_toTopOf="@+id/locked"
+        app:srcCompat="@drawable/ic_3_stars_outlines" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:tint="@color/colorText"
+        app:layout_constraintEnd_toEndOf="@+id/planner"
+        app:layout_constraintTop_toTopOf="@+id/planner"
+        app:srcCompat="@drawable/ic_3_stars_outlines" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
